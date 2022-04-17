@@ -1,6 +1,6 @@
 Setting,Customize,Hints
 Map Info,,"For help, see tutorial in HandsOnDataViz.org"
-Map Title,Demo: Leaflet Maps with Google Sheets v. 1.2.0,Insert your map title. Always appears in browser tab
+Map Title,Demo: Leafletmaps exercise by Latish,Insert your map title. Always appears in browser tab
 Map Subtitle,Explore the East Coast Greenway,Add context (or leave blank)
 Display Title,topleft,"Select position to display map title, or off"
 Author Name,Add Your Name,"Appears in credits as ""View data by..."" (or leave blank)"
