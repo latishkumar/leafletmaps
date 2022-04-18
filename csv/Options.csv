@@ -10,7 +10,7 @@ Author Code Credit,"<a href=""https://handsondataviz.org"">HandsOnDataViz</a>","
 Google Analytics Tracking ID,,General format: UA-5488840-29
 Map Settings,,"For help, see tutorial in HandsOnDataViz.org"
 Basemap Tiles,CartoDB.Positron,Select basemap background from drop-down menu
-Cluster Markers,off,"Display tightly-packed groups of markers as numbers, until zoomed in to view details."
+Cluster Markers,on,"Display tightly-packed groups of markers as numbers, until zoomed in to view details."
 Intro Popup Text,,Show intro text pop-up on startup (or leave blank)
 Initial Zoom,,Leave blank to auto-zoom to display all markers (or insert number between 1 [zoomed out] and 18 [zoomed in])
 Initial Center Latitude,,Leave blank to auto-center for all markers (or insert initial latitude)
