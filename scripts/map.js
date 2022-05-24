@@ -58,6 +58,27 @@ $(window).on('load', function() {
     }
 
     map.setView(center, zoom);
+    
+    //latish added
+    function onMapClick(e) {
+		  // rimuove il punto centrale col popup
+		  // map.removeLayer(marker);
+		  // prende le coordinate dall'evento
+		  var lat = (e.latlng.lat);
+		  var lng = (e.latlng.lng);          
+		  // definisce il popup     
+		  popup.setLatLng(e.latlng).setContent("<form method='POST'><input type='hidden' name='lat' value="
+			+lat
+			+"><input type='hidden' name='lng' value="
+			+lng
+			+">"
+			+"<input type='radio' name='tipo' value='platano' checked>Platano<br>"
+			+"<input type='radio' name='tipo' value='faggio'>Faggio<hr>"
+			+"<button type='submit' name='submit' style='padding:4px;width:100%;'>+</button></form>")
+		.openOn(map);
+	  }
+	  map.on('click', onMapClick);
+    // latish end
   }
 
 
